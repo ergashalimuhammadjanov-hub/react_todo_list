@@ -49,11 +49,9 @@ header h1 {
   background: rgba(108, 99, 255, 1);
   border-radius: 5px;
   border: none;
-  /* padding-right: 10px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* chekkalarga olib boradi */
   padding: 0 16px;
   cursor: pointer;
   font-weight: 700;
@@ -106,8 +104,8 @@ header h1 {
 }
 
 .checkbox {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   accent-color: #6C63FF;
   cursor: pointer;
 }
@@ -244,7 +242,8 @@ main {
 .modalbtns .canel {
   background: transparent;
   color: rgba(108, 99, 255, 1);
-  border: 1px solid rgba(108, 99, 255, 1)
+  border: 1px solid rgba(108, 99, 255, 1);
+
 }
 
 .modalbtns .canel:hover {
@@ -294,18 +293,25 @@ main {
 
 }
 
-.body.active .modal h3{
+.body.active .modal h3 {
   color: rgba(247, 247, 247, 1);
 }
 
 .body.active .list h3 {
   color: rgba(247, 247, 247, 1);
 }
-.body.active .inp input{
+
+.body.active .inp input {
   border: 1px solid rgba(247, 247, 247, 1)
 }
 
-.body.active button{
+.body.active button {
   background: rgba(108, 99, 255, 1);
+  color: white;
 
+}
+
+.list.active h3 {
+  text-decoration: line-through;
+  opacity: 0.5;
 }
