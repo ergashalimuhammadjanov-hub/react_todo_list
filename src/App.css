@@ -315,3 +315,8 @@ main {
   text-decoration: line-through;
   opacity: 0.5;
 }
+
+
+.body.active header h1{
+  color: white;
+}
